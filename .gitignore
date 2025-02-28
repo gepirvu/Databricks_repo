@@ -1,1 +1,4 @@
 requirements.txt
+.databricks
+.vscode
+.venv
