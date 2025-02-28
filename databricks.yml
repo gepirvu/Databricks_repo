@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for Databricks_repo.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: Databricks_repo
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-550863152927870.10.azuredatabricks.net
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://adb-550863152927870.10.azuredatabricks.net
